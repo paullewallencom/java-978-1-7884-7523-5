@@ -1,0 +1,14 @@
+package com.packt.designpatterns.bp.commandpattern;
+
+public class CancelOrder implements Order {
+	Pizza pizza;
+	
+	public CancelPizza(Pizza pizza) {
+		this.pizza = pizza;
+	}
+	
+	public void execute() {
+		pizza.cancelOrder();
+	}
+	
+}

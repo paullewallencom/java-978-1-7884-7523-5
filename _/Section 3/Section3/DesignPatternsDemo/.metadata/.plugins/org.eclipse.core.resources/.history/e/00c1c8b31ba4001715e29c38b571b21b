@@ -1,0 +1,11 @@
+package com.packtpub.designpatterns.structural;
+
+import com.packtpub.designpatterns.creational.ConnectionManager;
+
+public class FlightBooking {
+	ConnectionManager instance = null;
+	
+	public FlightBooking() {
+		instance = ConnectionManager.getInstance();
+	}
+}

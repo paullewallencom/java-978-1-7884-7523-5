@@ -1,0 +1,5 @@
+package com.packtpub.designpatterns.structural;
+
+public class OneToOneTraining extends ServiceDecorator {
+
+}

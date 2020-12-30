@@ -1,0 +1,17 @@
+package com.packtpub.designpatterns.structural;
+
+import java.sql.Connection;
+import java.sql.Date;
+import java.sql.PreparedStatement;
+import java.util.UUID;
+
+import com.packtpub.designpatterns.creational.ConnectionManager;
+
+public class HotelBooking {
+	ConnectionManager instance = null;
+	
+	public HotelBooking() {
+		instance = ConnectionManager.getInstance();
+	}
+	
+}

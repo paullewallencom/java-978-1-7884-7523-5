@@ -1,0 +1,5 @@
+package com.packt.designpatterns.bp.observerpattern;
+
+public class PaymentObserver {
+
+}

@@ -1,0 +1,7 @@
+package com.packtpub.designpatterns.structural;
+
+import java.sql.Date;
+
+public class TravelPackageFacade {
+	
+}
